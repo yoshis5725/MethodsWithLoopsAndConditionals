@@ -136,24 +136,25 @@ namespace MethodsWithLoopsAndConditionals
                         break;
                     }
                 }
+
                 else
                 {
                     Console.WriteLine("Please enter a digit");
                 }
-
             }
         }
 
 
         static void Main(string[] args)
         {
-            // DisplayNums();
-            // DisplayBy3s();
-            // CheckEqualOrNot(2, 2);
-            // CheckEvenOrOdd(45);
-            // CheckNegativeOrPositive(-56);
-            // VerifyingAge();
-            // VerifyingInputRange();
+            // my DisplayNums is being weird. If I do range from -1000 to 0 everything works fine, but if i do a range from -1000 to 1000 - the Console.Write starts from -8 and goes to 1000. Can you please let me know what is causing my method to behave this way? Thank you.
+            DisplayNums();
+            DisplayBy3s();
+            CheckEqualOrNot(2, 2);
+            CheckEvenOrOdd(45);
+            CheckNegativeOrPositive(-56);
+            VerifyingAge();
+            VerifyingInputRange();
             DisplayMultiplicationTable();
         }
     }
